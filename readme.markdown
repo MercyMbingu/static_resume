@@ -64,18 +64,18 @@ Once you have your static site up and running on your local device, consider hos
 	This is an optional step To view what files have already been committed to the branch versus those that have not in the current directory
 4. *git add .* 
 	If no prior commits had been made, this command will upload all files in the directory to the Github branch. If you were only looking to add a specific file, use "*git add <filename>*"
-5. *git commit -m "<comment>"*
+5. *git commit -m "'<comment>'"*
 	This command ideally publishes the files you have added to the branch. If the dicumentation was to be worked on in collaboration with others, they would now be able to see the changes you have made.
 * If this was your first trial at linking your local server to Github, the previous command may be unsuccessful because your identity is unknown. To remedy this, run:
   * git config --global user.email "you@example.com"
   * git config --global user.name "Your Name"
 - Now try (4) again
-6. *git remote add origin <https://github.com/<username>/<repositoryname>.git>*
+6. *git remote add origin '<https://github.com/'<username>'/'<repositoryname>'.git>*
 	In order to view your website on a browser, type this to add the URL to the alias "origin"
 7. *git push origin gh-pages*
 	This command will sync local commits with the repository branch to ensure your documents are up to date.
 
-*********************************add maneuvre to github to get page link 
+
  Other git commands can be found [here](https://education.github.com/git-cheat-sheet-education.pdf).
 
 
@@ -89,8 +89,9 @@ Having your documentation available on a DVC makes it easily accessible to devel
 
 ## AUTHORS AND ACKNOWLEDGEMENTS
 
-- credit authors template
-- I would also like to thank my group members; [] ... for helping with peer editing this README thereby making the final copy even more flawless.
+ I would like acknowledge Andrew Etter for the commendable writing of the book "Modern Technical Writing". This book has proven to me that technical writing is far less intimidating than I thought prior to reading it.
+  
+ I would also like to appreciate my group members for helping with peer editing this README thereby making the final copy render more seamless.
 
 
 ## *FAQs*
@@ -98,6 +99,7 @@ Having your documentation available on a DVC makes it easily accessible to devel
 - _Why host a static website?_
 Static websites are simple to create, require almost no resources and are portable to almost every software application. Their diversity will allow you to share your document (in this case resume) publicly with minimal dependencies and allow you to keep everyone with an up-to-date version of your documentation.
 
-- _Why is my resume not showing up?_ from jekyll tutorial
+- _Why is my resume not showing up after I change a theme?_ 
+- Sometimes a theme may not have some of the same layouts you may have defined from the previous theme. Go into the new theme's documentation to check this and change accordingly.
 
 
