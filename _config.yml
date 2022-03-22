@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: STATIC WEBSITE FORMATTING AND HOSTING
+title: STATIC WEBSITE
 email: mbingum@myumanitoba.ca
 description: >- # this means to ignore newlines until "baseurl:"
  This site was created with the goal of hosting my resume on a static website, 
@@ -30,7 +30,7 @@ github_username:  MercyMbingu
 
 # Build settings
 theme: texture
-#remote_theme: samarsault/texture
+remote_theme: samarsault/texture
 #theme: minima
 plugins:
   - jekyll-feed

@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: Tutorial
-permalink: /readme/
+permalink: /readme
 ---
 
 # STATIC WEBSITE FORMATTING AND HOSTING 
@@ -90,34 +90,14 @@ Having your documentation available on a DVC makes it easily accessible to devel
 ## AUTHORS AND ACKNOWLEDGEMENTS
 
 - credit authors template
-- I would also like to thank my group members; Caleb, Kiran ... for helping with peer editing this README thereby making the final copy even more flawless.
+- I would also like to thank my group members; [] ... for helping with peer editing this README thereby making the final copy even more flawless.
 
 
 ## *FAQs*
 
 - _Why host a static website?_
-Static websites are simple to create, require almost no resources and are portable to almost every software application. Their diversity will allow you to share your document (in this case resume) publicly with minimal dependancies and allow you to keep everyone with an up-to-date version of your documentation.
+Static websites are simple to create, require almost no resources and are portable to almost every software application. Their diversity will allow you to share your document (in this case resume) publicly with minimal dependencies and allow you to keep everyone with an up-to-date version of your documentation.
 
 - _Why is my resume not showing up?_ from jekyll tutorial
 
-Audience Profile
-Audience: CS Student
-Venue: README in Github pages
-Purpose: Explain how to host a resume on Github
-Additional Purpose: Introduce and demonstarate the principles of Andrew Etter's book, Modern Technical Writing
-Desired Reaction: Reader can host a resume on Github pages
-Vocabulary: both technical and layman
-Tone: instructional/educational, formal
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
